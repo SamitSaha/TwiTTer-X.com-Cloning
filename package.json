@@ -1,0 +1,22 @@
+{
+  "name": "twitter-x.com-cloning",
+  "version": "1.0.0",
+  "description": "Designing with Tailwind CSS to clone the Twitter home page with responsive design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "vite": "^5.3.2"
+  }
+}
